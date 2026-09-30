@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"${workspaceFolder}/LAB_OH.sln",
+				"--verbosity",
+				"minimal"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": "$msCompile",
+			"label": "build: solution"
+		},
+		{
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"test",
+				"${workspaceFolder}/LAB_OH.sln",
+				"--verbosity",
+				"minimal"
+			],
+			"problemMatcher": "$msCompile",
+			"label": "test: all",
+			"group": "test"
+		}
+	]
+}

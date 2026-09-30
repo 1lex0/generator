@@ -1,0 +1,16 @@
+{
+    "dotnet.defaultSolution": "LAB_OH.sln",
+    "dotnet.preferCSharpExtension": true,
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.useModernNet": false,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": false,
+    "omnisharp.projectLoadTimeout": 120,
+    "files.watcherExclude": {
+        "**/bin/**": true,
+        "**/obj/**": true
+    },
+    "search.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
+}
